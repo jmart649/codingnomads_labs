@@ -10,7 +10,20 @@ class ArithmeticOperators {
 
     public static void main(String[] args) {
 
-        // write your code below
+        // write your code
+
+        int x = 10;
+        int y = 3;
+
+        int n = x + y;
+        int z = x * y;
+        int a = x / y;
+        int b = x % y;
+
+        System.out.println(n);
+        System.out.println(z);
+        System.out.println(a);
+        System.out.println(b);
 
     }
 

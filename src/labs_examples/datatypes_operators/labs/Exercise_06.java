@@ -14,5 +14,15 @@ public class Exercise_06 {
 
         // write code here
 
+        double r = 3.14;
+        double h = 5;
+        double pi = 3.14;
+
+        double volume = pi * Math.pow(r, 2) * h;
+        double area = 2 * pi * r * h + 2 * pi * Math.pow(r, 2);
+
+        System.out.println(volume);
+        System.out.println(area);
+
     }
 }

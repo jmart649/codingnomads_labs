@@ -18,6 +18,16 @@ public class Exercise_01 {
 
         // write code here
 
+        int x = 5;
+        double n = 10.50;
+        float y = 10;
+        char a = 'A';
+
+        System.out.println(x);
+        System.out.println(n);
+        System.out.println(y);
+        System.out.println(a);
+
     }
 }
 
