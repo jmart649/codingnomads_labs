@@ -23,6 +23,19 @@ public class Exercise_01 {
         // assign input to variable as int
         int number = scanner.nextInt();
 
+        if(number > 0 && number <= 1000000000){
+            int remainder = number % 2;
+            if(remainder == 0){
+                System.out.println(number + " is an even number");
+            }
+            else{
+                System.out.println(number + " is an odd number");
+            }
+        }
+        else{
+            System.out.println("Invalid number");
+        }
+
         // write completed code here
 
     }
