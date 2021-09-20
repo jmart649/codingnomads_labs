@@ -9,5 +9,18 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args){
+        int[][] intArray = {
+                {25,28},
+                {33, 543, 484},
+                {64, 74}
+        };
 
+        for(int[] num : intArray){
+            for(int x : num){
+                System.out.print(x + " ");
+            }
+            System.out.println();
+        }
+    }
 }

@@ -1,5 +1,8 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +13,25 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args){
+        ArrayList<String> list = new ArrayList();
+        list.add("Karla");
+        list.add("Jesse");
+        list.add("Amelia");
+        list.add("Joanne");
+
+        for(String s : list){
+            System.out.print(s + " ");
+        }
+
+        list.remove("Joanne");
+        boolean val = list.isEmpty();
+        System.out.println("\nIs the list empty now? " + val);
+        int num = list.size();
+        System.out.println("How many names are still on the list? " + num);
+        list.clear();
+        val = list.isEmpty();
+        System.out.println("Is the list empty now? " + val);
+
+    }
 }
